@@ -86,6 +86,8 @@ function fetchWeather(city) {
                     img.src = basePath+'cloud.png';
                     break;
                 case 'Mist':
+                    img.src = basePath+'mist.png';
+                      break;
                 case 'Haze':
                     img.src = basePath+'mist.png';
                     break;
